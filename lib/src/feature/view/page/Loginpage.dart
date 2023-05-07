@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:made/src/feature/view/page/Homepage.dart';
 import 'package:made/src/feature/view/page/Registerpage.dart';
 
 class LoginPage extends StatefulWidget{
@@ -77,7 +78,7 @@ class _LoginPageState extends State<LoginPage> {
             ElevatedButton(
               onPressed: (){
                 if(_formKey.currentState!.validate()){
-                  login();
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const HomePage()),);
 
                 }
               }, 
@@ -95,7 +96,7 @@ class _LoginPageState extends State<LoginPage> {
             ),
              ElevatedButton(
               onPressed: (){
-                 Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const RegsterPage()),);
+                 Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const Registerpage()),);
               }, 
             style: ButtonStyle(
               overlayColor: MaterialStateProperty.resolveWith<Color?>(
