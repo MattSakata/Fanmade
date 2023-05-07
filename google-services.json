@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "717047174801",
+    "project_id": "fanmade-6364e",
+    "storage_bucket": "fanmade-6364e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717047174801:android:86a4886f4691dcae34d130",
+        "android_client_info": {
+          "package_name": "com.example.made"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717047174801-tn7jigcjce3queg8bhu2p14jhv4lc2ft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANb_pbhAcGJAvE5yLF7r1lpWhRA2lVCqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717047174801-tn7jigcjce3queg8bhu2p14jhv4lc2ft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
